@@ -3,58 +3,58 @@ import "./Index.css";
 
 export default function Index() {
   return (
-    <div>
+    <React.Fragment>
       <div class="header-outs" id="home">
         <div class="header-bar">
           <div class="info-top-grid">
-              <div class="info-contact-agile">
-                <ul>
-                    <li>
-                      <span class="fas fa-phone-volume"></span>
-                      <p>+(000)123 4565 32</p>
-                    </li>
-                    <li>
-                      <span class="fas fa-envelope"></span>
-                      <p><a href="mailto:info@example.com">info@example1.com</a></p>
-                    </li>
-                    <li>
-                    </li>
-                </ul>
-              </div>
+            <div class="info-contact-agile">
+              <ul>
+                <li>
+                  <span class="fas fa-phone-volume"></span>
+                  <p>+(000)123 4565 32</p>
+                </li>
+                <li>
+                  <span class="fas fa-envelope"></span>
+                  <p><a href="mailto:info@example.com">info@example1.com</a></p>
+                </li>
+                <li>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="container-fluid">
-              <div class="hedder-up row">
-                <div class="col-lg-3 col-md-3 logo-head">
-                    <h1><a class="navbar-brand" href="index.html">Toys-Shop</a></h1>
-                </div>
-                <div class="col-lg-5 col-md-6 search-right">
-                    <form class="form-inline my-lg-0">
-                      <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                      <button class="btn" type="submit">Search</button>
-                    </form>
-                </div>
-                <div class="col-lg-4 col-md-3 right-side-cart">
-                    <div class="cart-icons">
-                      <ul>
-                          <li>
-                            <span class="far fa-heart"></span>
-                          </li>
-                          <li>
-                            <button type="button" data-toggle="modal" data-target="#exampleModal"> <span class="far fa-user"></span></button>
-                          </li>
-                          <li class="toyscart toyscart2 cart cart box_1">
-                            <form action="#" method="post" class="last">
-                                <input type="hidden" name="cmd" value="_cart">
-                                <input type="hidden" name="display" value="1">
-                                <button class="top_toys_cart" type="submit" name="submit" value="">
-                                <span class="fas fa-cart-arrow-down"></span>
-                                </button>
-                            </form>
-                          </li>
-                      </ul>
-                    </div>
-                </div>
+            <div class="hedder-up row">
+              <div class="col-lg-3 col-md-3 logo-head">
+                  <h1><a class="navbar-brand" href="index.html">Toys-Shop</a></h1>
               </div>
+              <div class="col-lg-5 col-md-6 search-right">
+                <form class="form-inline my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" />
+                  <button class="btn" type="submit">Search</button>
+                </form>
+              </div>
+              <div class="col-lg-4 col-md-3 right-side-cart">
+                  <div class="cart-icons">
+                    <ul>
+                        <li>
+                          <span class="far fa-heart"></span>
+                        </li>
+                        <li>
+                          <button type="button" data-toggle="modal" data-target="#exampleModal"> <span class="far fa-user"></span></button>
+                        </li>
+                        <li class="toyscart toyscart2 cart cart box_1">
+                          <form action="#" method="post" class="last">
+                              <input type="hidden" name="cmd" value="_cart" />
+                              <input type="hidden" name="display" value="1" />
+                              <button class="top_toys_cart" type="submit" name="submit" value="">
+                              <span class="fas fa-cart-arrow-down"></span>
+                              </button>
+                          </form>
+                        </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
           </div>
           <nav class="navbar navbar-expand-lg navbar-light">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,7 +109,7 @@ export default function Index() {
                     <div class="slider-img one-img">
                       <div class="container">
                           <div class="slider-info ">
-                            <h5>Pick The Best Toy For <br>Your Kid</h5>
+                            <h5>Pick The Best Toy For <br />Your Kid</h5>
                             <div class="bottom-info">
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolorL orem ipsum dolor sit amet eget dolor</p>
                             </div>
@@ -124,7 +124,7 @@ export default function Index() {
                     <div class="slider-img two-img">
                       <div class="container">
                           <div class="slider-info ">
-                            <h5>Sort Toys And Teddy bears<br>For Kids</h5>
+                            <h5>Sort Toys And Teddy bears<br />For Kids</h5>
                             <div class="bottom-info">
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolorL orem ipsum dolor sit amet eget dolor</p>
                             </div>
@@ -139,7 +139,7 @@ export default function Index() {
                     <div class="slider-img three-img">
                       <div class="container">
                           <div class="slider-info">
-                            <h5>Best Toys And Dolls<br> For Kids</h5>
+                            <h5>Best Toys And Dolls<br /> For Kids</h5>
                             <div class="bottom-info">
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget dolorL orem ipsum dolor sit amet eget dolor</p>
                             </div>
@@ -166,37 +166,37 @@ export default function Index() {
             <h3 class="title text-center mb-lg-5 mb-md-4  mb-sm-4 mb-3">Best Products</h3>
             <div class="row banner-below-w3l">
                 <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
-                  <img src="images/a1.jpg" class="img-thumbnail" alt="">
+                  <img src="images/a1.jpg" class="img-thumbnail" alt="" />
                   <div class="banner-right-icon">
                       <h4 class="pt-3">Baby Toys</h4>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
-                  <img src="images/a2.jpg" class="img-thumbnail" alt="">
+                  <img src="images/a2.jpg" class="img-thumbnail" alt="" />
                   <div class="banner-right-icon">
                       <h4 class="pt-3">Lite-Brite</h4>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
-                  <img src="images/a3.jpg" class="img-thumbnail" alt="">
+                  <img src="images/a3.jpg" class="img-thumbnail" alt="" />
                   <div class="banner-right-icon">
                       <h4 class="pt-3">Key Toys</h4>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 mt-3 text-center banner-agile-flowers">
-                  <img src="images/a4.jpg" class="img-thumbnail" alt="">
+                  <img src="images/a4.jpg" class="img-thumbnail" alt="" />
                   <div class="banner-right-icon">
                       <h4 class="pt-3">Play Toys</h4>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 mt-3 text-center banner-agile-flowers">
-                  <img src="images/a5.jpg" class="img-thumbnail" alt="">
+                  <img src="images/a5.jpg" class="img-thumbnail" alt="" />
                   <div class="banner-right-icon">
                       <h4 class="pt-3">Gift Toys</h4>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 mt-3 text-center banner-agile-flowers">
-                  <img src="images/a6.jpg" class="img-thumbnail" alt="">
+                  <img src="images/a6.jpg" class="img-thumbnail" alt=""/>
                   <div class="banner-right-icon">
                       <h4 class="pt-3">Soft Toys</h4>
                   </div>
@@ -299,7 +299,7 @@ export default function Index() {
                             <div class="least-w3layouts-text-gap">
                               <div class="row">
                                   <div class="col-md-4 col-sm-4 news-img">
-                                    <img src="images/t1.jpg" alt="" class="image-fluid">
+                                    <img src="images/t1.jpg" alt="" class="image-fluid" />
                                   </div>
                                   <div class="col-md-8 col-sm-8 clients-says-w3layouts">
                                     <h4>Milky Deo 
@@ -307,7 +307,7 @@ export default function Index() {
                                     <span class="mt-2">Duis posuere</span>
                                   </div>
                                   <div class="mt-3 news-agile-text">
-                                    <img src="images/tt1.jpg" alt="" class="image-fluid">
+                                    <img src="images/tt1.jpg" alt="" class="image-fluid" />
                                     <p class="mt-3"><span class="fas fa-quote-left"></span>  velit sagittis vehicula. Duis posuere 
                                         ex in mollis iaculis. Suspendisse tincidunt
                                         velit sagittis vehicula. Duis posuere 
@@ -321,7 +321,7 @@ export default function Index() {
                             <div class="least-w3layouts-text-gap">
                               <div class="row">
                                   <div class="col-md-4 col-sm-4 news-img">
-                                    <img src="images/t2.jpg" alt="" class="image-fluid">
+                                    <img src="images/t2.jpg" alt="" class="image-fluid" />
                                   </div>
                                   <div class="col-md-8 col-sm-8 clients-says-w3layouts">
                                     <h4>Sam Deo 
@@ -329,7 +329,7 @@ export default function Index() {
                                     <span class="mt-2">Duis posuere</span>
                                   </div>
                                   <div class="mt-3 news-agile-text">
-                                    <img src="images/tt2.jpg" alt="" class="image-fluid">
+                                    <img src="images/tt2.jpg" alt="" class="image-fluid" />
                                     <p class="mt-3"><span class="fas fa-quote-left"></span>  velit sagittis vehicula. Duis posuere 
                                         ex in mollis iaculis. Suspendisse tincidunt
                                         velit sagittis vehicula. Duis posuere 
@@ -347,7 +347,7 @@ export default function Index() {
                             <div class="least-w3layouts-text-gap">
                               <div class="row">
                                   <div class="col-md-4 col-sm-4 news-img">
-                                    <img src="images/t1.jpg" alt="" class="image-fluid">
+                                    <img src="images/t1.jpg" alt="" class="image-fluid" />
                                   </div>
                                   <div class="col-md-8 col-sm-8 clients-says-w3layouts">
                                     <h4>Milky Deo 
@@ -355,7 +355,7 @@ export default function Index() {
                                     <span class="mt-2">Duis posuere</span>
                                   </div>
                                   <div class="mt-3 news-agile-text">
-                                    <img src="images/tt1.jpg" alt="" class="image-fluid">
+                                    <img src="images/tt1.jpg" alt="" class="image-fluid" />
                                     <p class="mt-3"><span class="fas fa-quote-left"></span>  velit sagittis vehicula. Duis posuere 
                                         ex in mollis iaculis. Suspendisse tincidunt
                                         velit sagittis vehicula. Duis posuere 
@@ -369,7 +369,7 @@ export default function Index() {
                             <div class="least-w3layouts-text-gap">
                               <div class="row">
                                   <div class="col-md-4 col-sm-4 news-img">
-                                    <img src="images/t3.jpg" alt="" class="image-fluid">
+                                    <img src="images/t3.jpg" alt="" class="image-fluid" />
                                   </div>
                                   <div class="col-md-8 col-sm-8 clients-says-w3layouts">
                                     <h4>Sam Deo 
@@ -377,7 +377,7 @@ export default function Index() {
                                     <span class="mt-2">Duis posuere</span>
                                   </div>
                                   <div class="mt-3 news-agile-text">
-                                    <img src="images/tt1.jpg" alt="" class="image-fluid">
+                                    <img src="images/tt1.jpg" alt="" class="image-fluid" />
                                     <p class="mt-3"><span class="fas fa-quote-left"></span>  velit sagittis vehicula. Duis posuere 
                                         ex in mollis iaculis. Suspendisse tincidunt
                                         velit sagittis vehicula. Duis posuere 
@@ -395,7 +395,7 @@ export default function Index() {
                             <div class="least-w3layouts-text-gap">
                               <div class="row">
                                   <div class="col-md-4 col-sm-4 news-img">
-                                    <img src="images/t2.jpg" alt="" class="image-fluid">
+                                    <img src="images/t2.jpg" alt="" class="image-fluid" />
                                   </div>
                                   <div class="col-md-8 col-sm-8 clients-says-w3layouts">
                                     <h4>Milky Deo 
@@ -403,7 +403,7 @@ export default function Index() {
                                     <span class="mt-2">Duis posuere</span>
                                   </div>
                                   <div class="mt-3 news-agile-text">
-                                    <img src="images/tt2.jpg" alt="" class="image-fluid">
+                                    <img src="images/tt2.jpg" alt="" class="image-fluid" />
                                     <p class="mt-3"><span class="fas fa-quote-left"></span>  velit sagittis vehicula. Duis posuere 
                                         ex in mollis iaculis. Suspendisse tincidunt
                                         velit sagittis vehicula. Duis posuere 
@@ -417,7 +417,7 @@ export default function Index() {
                             <div class="least-w3layouts-text-gap">
                               <div class="row">
                                   <div class="col-md-4 col-sm-4 news-img">
-                                    <img src="images/t3.jpg" alt="" class="image-fluid">
+                                    <img src="images/t3.jpg" alt="" class="image-fluid" />
                                   </div>
                                   <div class="col-md-8 col-sm-8 clients-says-w3layouts">
                                     <h4>Sam Deo 
@@ -425,7 +425,7 @@ export default function Index() {
                                     <span class="mt-2">Duis posuere</span>
                                   </div>
                                   <div class="mt-3 news-agile-text">
-                                    <img src="images/tt1.jpg" alt="" class="image-fluid">
+                                    <img src="images/tt1.jpg" alt="" class="image-fluid" />
                                     <p class="mt-3"><span class="fas fa-quote-left"></span> velit sagittis vehicula. Duis posuere 
                                         ex in mollis iaculis. Suspendisse tincidunt
                                         velit sagittis vehicula. Duis posuere 
@@ -593,17 +593,17 @@ export default function Index() {
             <div class="col-lg-6 col-md-6 address-w3l-right text-center">
                 <div class="address-gried ">
                   <span class="far fa-map"></span>
-                  <p>25478 Road St.121<br>USA New Hill
-                  <p>
+                  <p>25478 Road St.121<br />USA New Hill
+                  </p>
                 </div>
                 <div class="address-gried mt-3">
                   <span class="fas fa-phone-volume"></span>
-                  <p> +(000)123 4565<br>+(010)123 4565</p>
+                  <p> +(000)123 4565<br />+(010)123 4565</p>
                 </div>
                 <div class=" address-gried mt-3">
                   <span class="far fa-envelope"></span>
                   <p><a href="mailto:info@example.com">info@example1.com</a>
-                      <br><a href="mailto:info@example.com">info@example2.com</a>
+                      <br /><a href="mailto:info@example.com">info@example2.com</a>
                   </p>
                 </div>
             </div>
@@ -630,7 +630,7 @@ export default function Index() {
             <div class="email-sub-agile">
                 <form action="#" method="post">
                   <div class="form-group sub-info-mail">
-                      <input type="email" class="form-control email-sub-agile" placeholder="Email">
+                      <input type="email" class="form-control email-sub-agile" placeholder="Email" />
                   </div>
                   <div class="text-center">
                       <button type="submit" class="btn subscrib-btnn">Subscribe</button>
@@ -664,13 +664,13 @@ export default function Index() {
                   <form action="#" method="post">
                     <div class="fields-grid">
                         <div class="styled-input">
-                          <input type="text" placeholder="Your Name" name="Your Name" required="">
+                          <input type="text" placeholder="Your Name" name="Your Name" required="" />
                         </div>
                         <div class="styled-input">
-                          <input type="email" placeholder="Your Email" name="Your Email" required="">
+                          <input type="email" placeholder="Your Email" name="Your Email" required="" />
                         </div>
                         <div class="styled-input">
-                          <input type="password" placeholder="password" name="password" required="">
+                          <input type="password" placeholder="password" name="password" required="" />
                         </div>
                         <button type="submit" class="btn subscrib-btnn">Login</button>
                     </div>
@@ -684,6 +684,6 @@ export default function Index() {
         </div>
       </div>
       {/*  //Modal 1 */}
-    </div>
+    </React.Fragment>
   );
 }
