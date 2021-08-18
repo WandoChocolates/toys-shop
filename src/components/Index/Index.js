@@ -1,6 +1,8 @@
 import React from "react";
 import "./Index.css";
 
+import "./css/style.css";
+
 export default function Index() {
   return (
     <React.Fragment>
