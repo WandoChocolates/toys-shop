@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../css/style.css";
 import "../css/shop.css";
@@ -98,29 +99,29 @@ export default function HeaderBar() {
           >
             <ul class="navbar-nav ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <Link class="nav-link" to="/">
                   Home <span class="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link">
+                <Link to="/about" class="nav-link">
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a href="service.html" class="nav-link">
+                <Link to="/service" class="nav-link">
                   Service
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a href="shop.html" class="nav-link">
+                <Link to="/shop" class="nav-link">
                   Shop Now
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown">
-                <a
+                <Link
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  to="#"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -128,20 +129,20 @@ export default function HeaderBar() {
                   aria-expanded="false"
                 >
                   Pages
-                </a>
+                </Link>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="nav-link" href="icon.html">
+                  <Link class="nav-link" to="/icon">
                     404 Page
-                  </a>
-                  <a class="nav-link " href="typography.html">
+                  </Link>
+                  <Link class="nav-link " to="/typography">
                     Typography
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a
+                <Link
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  to="#"
                   id="navbarDropdown1"
                   role="button"
                   data-toggle="dropdown"
@@ -149,26 +150,26 @@ export default function HeaderBar() {
                   aria-expanded="false"
                 >
                   Product
-                </a>
+                </Link>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="nav-link" href="product.html">
+                  <Link class="nav-link" to="/product">
                     Kids Toys
-                  </a>
-                  <a class="nav-link " href="product.html">
+                  </Link>
+                  <Link class="nav-link " to="/product">
                     Dolls
-                  </a>
-                  <a class="nav-link " href="product.html">
+                  </Link>
+                  <Link class="nav-link " to="/product">
                     Key Toys
-                  </a>
-                  <a class="nav-link " href="product.html">
+                  </Link>
+                  <Link class="nav-link " to="product">
                     Boys Toys
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li class="nav-item">
-                <a href="contact.html" class="nav-link">
+                <Link to="/contact" class="nav-link">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
