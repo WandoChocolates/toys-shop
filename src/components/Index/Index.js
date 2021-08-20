@@ -29,37 +29,37 @@ const routes = [
   },
   {
     path: "/about",
-    slideshow: () => <ShortBanner />,
+    slideshow: () => <ShortBanner page="About" />,
     main: () => <About />
   },
   {
     path: "/service",
-    slideshow: () => <div>shoelaces!</div>,
+    slideshow: () => <ShortBanner page="Service" />,
     main: () => <Service />
   },
   {
     path: "/shop",
-    slideshow: () => <div>shoelaces!</div>,
+    slideshow: () => <ShortBanner page="Shop Now" />,
     main: () => <Shop />
   },
   {
     path: "/icon",
-    slideshow: () => <div>shoelaces!</div>,
+    slideshow: () => <ShortBanner page="Icons" />,
     main: () => <Icon />
   },
   {
     path: "/typography",
-    slideshow: () => <div>shoelaces!</div>,
+    slideshow: () => <ShortBanner page="Typography" />,
     main: () => <Typography />
   },
   {
     path: "/product",
-    slideshow: () => <div>shoelaces!</div>,
+    slideshow: () => <ShortBanner page="Products" />,
     main: () => <Product />
   },
   {
     path: "/contact",
-    slideshow: () => <div>shoelaces!</div>,
+    slideshow: () => <ShortBanner page="Contact" />,
     main: () => <Contact />
   }
 ];

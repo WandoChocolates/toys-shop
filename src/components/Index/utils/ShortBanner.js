@@ -19,7 +19,7 @@ export default function ShortBanner(props) {
                   <Link to="/">Home</Link>
                   <span>/ /</span>
                </li>
-               <li>About</li>
+               <li>{props.page}</li>
             </ul>
          </div>
       </div>
