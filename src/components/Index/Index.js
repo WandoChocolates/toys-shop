@@ -3,9 +3,6 @@ import { loadCSS } from "fg-loadcss";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./Index.css";
 
-import "./css/style.css";
-import "./css/shop.css";
-
 import HeaderBar from "./utils/HeaderBar";
 import Slideshow4 from "./utils/Slideshow4";
 import Home from "./utils/Home";
